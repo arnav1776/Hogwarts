@@ -8,12 +8,20 @@ body{
 
 header{
     width: 100%;
-    background-color: goldenrod ;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     border-bottom: 1px solid #133783;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0.6em 0em;
+    color: white;
 }
 
 #hog{
@@ -34,7 +42,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(221, 184, 90);
+    background-color: #2a9cdc;
 }
 #heading{
     font-size: 30px;
@@ -46,7 +54,7 @@ main{
     border-radius: 50%;
     border: 1rem solid;
     border-color: wheat;
-    box-shadow: 0 20px 20px 20px red;
+    box-shadow: 0 20px 20px 20px #0c1445;
     
 }
 main{
@@ -58,7 +66,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(221, 184, 90);
+    background-color: rgb(36, 36, 36);
+    color: white;
 }
 
 #para{
@@ -67,4 +76,41 @@ main{
 
 #h3{
     font-style: italic;
+    border-style: solid;
+}
+
+#gr{
+    font-size: 32px;
+}
+#ig1{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1rem solid;
+    border-color: red;
+    box-shadow: 0 20px 20px 20px gold;
+}
+#ig2{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1rem solid;
+    border-color: blue;
+    box-shadow: 0 20px 20px 20px whitesmoke;
+}
+#ig3{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1rem solid;
+    border-color: yellow;
+    box-shadow: 0 20px 20px 20px blanchedalmond;
+}
+#ig4{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 1rem solid;
+    border-color: green;
+    box-shadow: 0 20px 20px 20px silver;
 }
