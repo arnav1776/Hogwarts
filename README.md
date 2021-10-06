@@ -16,6 +16,7 @@ Can you get the maximum score?
 ## How to Play
 
 ### First, on the Home Page, click on the "Play" button:
+
 ![Play Menu](https://i.ibb.co/L1fV5yT/Screenshot-2021-10-06-123244.png )
 
 ---
