@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('endpage.jpg');
+    background-size:cover;
+    color: white;
+    /* color: grey; */
+}
+.container{
+    position: absolute;
+    border: 2px solid white;
+    /* background-color: aqua; */
+    background-color: rgb(196, 188, 188);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 350px;
+    width: 500px;
+    border-radius: 20px;
+}
+.score{
+    background:linear-gradient(rgb(236, 61, 8), rgb(167, 32, 32), rgb(94, 5, 5));
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+}
+#yourScore{
+    font-size: 0.8cm;
+    font-weight: bold;
+}
+.over{
+    background-color: rgb(87, 80, 80);
+    border-radius: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    height: 50px;
+}
+.form{
+    background: linear-gradient(rgb(196, 188, 188),rgb(94, 88, 88));
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#username{
+    font-size: 20px;
+    margin-left: 0;
+    height: 35px;
+    border-radius: 10px;
+    line-height: 4rem;
+    
+}
+#end-text{
+    text-align: center;
+}
+.in{
+    margin-left: 50px;
+}
+.btn{
+    height: 32px;
+    background-color: rgb(27, 138, 27);
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    border-radius: 15px;
+}
+.btn:hover{
+    height: 35px;
+    background-color: rgb(27, 138, 27);
+    font-size: 20px;
+    width: 100px;
+    color: rgb(10, 9, 9);
+    border-radius: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+.button a{
+    height: 40px;
+    width:  120px;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.button a:hover{
+    height: 40px;
+    width:  120px;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+}
