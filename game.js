@@ -127,7 +127,7 @@ let questions = [
     },
     {
         question:
-            "What colour fur does Crookshanks have. (Hermiones's cat)?",
+            "What colour fur does Crookshanks have? (Hermiones's cat)",
         choice1: "Grey",
         choice2: "Black and white",
         choice3: "Tabby",
