@@ -1,5 +1,7 @@
 # Hogwarts 
 
+![Hogwarts](https://i.ibb.co/hs7hYCj/Screenshot-2021-10-06-124630.png)
+
 ## What is Hogwarts About?
 
 Hogwarts is a Web App made using HTML, CSS and JavaScript.
@@ -31,6 +33,11 @@ Can you get the maximum score?
 ---
 
 
+## Want to be a wizard and contribute to Hogwarts?
 
-
-![WhatsApp Image 2021-07-12 at 11 02 17 PM](https://user-images.githubusercontent.com/64467851/125331205-4db76a00-e365-11eb-8a61-4824d5e98f67.jpeg)
+- Fork the repo
+- Create a new branch (git checkout -b new-feature)
+- Make your changes in the file
+- Commit your changes (git commit -m 'I changed a, b and c')
+- Push to the branch (git push origin new-feature)
+- Create a Pull Request
