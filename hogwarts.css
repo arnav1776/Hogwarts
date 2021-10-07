@@ -81,6 +81,7 @@ main {
   align-items: center;
   background-color: rgb(36, 36, 36);
   color: white;
+  padding-bottom: 45px;
 }
 
 #para {
@@ -219,4 +220,24 @@ h2 {
 .fa-crown {
   font-size: 2.5rem;
   margin-left: 1rem;
+}
+
+footer{
+  background-color: #0c1445;
+  margin: -21px 0px;
+  padding: 50px 10px 20px;
+  text-align: center;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+footer p a{
+  color: #fff;
+}
+
+footer p a:hover{
+  color: #1E7352;
 }
