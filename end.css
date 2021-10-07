@@ -3,14 +3,14 @@
     padding: 0;
 }
 body{
-    background-image: url('endpage.jpg');
+    background-image: url('blue-bg.jpg');
     background-size:cover;
     color: white;
     /* color: grey; */
 }
 .container{
     position: absolute;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     /* background-color: aqua; */
     background-color: rgb(196, 188, 188);
     top: 40%;
