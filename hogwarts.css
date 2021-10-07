@@ -81,7 +81,18 @@ main {
   align-items: center;
   background-color: rgb(36, 36, 36);
   color: white;
+}
+
+.sec2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  color: white;
   padding-bottom: 45px;
+  width: 100%;
+  padding: 0px 0px 45px 15vw;
 }
 
 #para {
@@ -97,36 +108,27 @@ main {
   font-size: 32px;
 }
 #ig1 {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  border: 1rem solid;
   border-color: red;
   box-shadow: 0 20px 20px 20px gold;
 }
 #ig2 {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  border: 1rem solid;
   border-color: blue;
   box-shadow: 0 20px 20px 20px whitesmoke;
 }
 #ig3 {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  border: 1rem solid;
   border-color: yellow;
-  box-shadow: 0 20px 20px 20px blanchedalmond;
+  box-shadow: 0 20px 20px 20px rgb(128, 116, 98);
 }
 #ig4 {
-  width: 450px;
-  height: 450px;
-  border-radius: 50%;
-  border: 1rem solid;
   border-color: green;
   box-shadow: 0 20px 20px 20px silver;
+}
+
+.ig{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1rem solid;
 }
 
 h1 {
@@ -197,7 +199,7 @@ h2 {
   padding: 1rem 0;
   width: 15rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1.3rem;
   text-decoration: none;
   color: rgb(28, 26, 26);
   background: linear-gradient(
