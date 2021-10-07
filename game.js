@@ -20,6 +20,22 @@ let questions = [
         answer: 3,
     },
     {
+        question: 'Which is the correct Wand core type among the following?',
+        choice1: 'Dragon heartstrings',
+        choice2: 'Unicorn hair',
+        choice3: 'Phoenix feathers',
+        choice4: 'All of the above',
+        answer: 4,
+    },
+    {
+        question: 'Who saved Buckbeak from being executed?',
+        choice1: 'Harry and Hermione',
+        choice2: 'Harry and Ron',
+        choice3: 'Hermoine and Ron',
+        choice4: 'None of the above',
+        answer: 1,
+    },
+    {
         question:
             "What is the name of the plant that Harry uses in order to breathe underwater during the Tri-Wizard tournament?",
         choice1: "Alihotsy",
