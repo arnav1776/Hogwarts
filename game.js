@@ -20,14 +20,6 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'What was the relation between Harry and Sirius Black?',
-        choice1: 'Father',
-        choice2: 'Uncle',
-        choice3: 'Godfather',
-        choice4: 'Grandfather',
-        answer: 3,
-    },
-    {
         question: 'Which is the correct Wand core type among the following?',
         choice1: 'Dragon heartstrings',
         choice2: 'Unicorn hair',
