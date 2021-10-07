@@ -105,6 +105,51 @@ let questions = [
         choice4: "5",
         answer: 4,
     },
+    {
+        question:
+            "Which of this animals is Harry Potter's patronus?",
+        choice1: "Cat",
+        choice2: "Stag",
+        choice3: "Fox",
+        choice4: "Phoenix",
+        answer: 2,
+    },
+    {
+        question:
+            "Which Hogwarts house is represented by a serpent?",
+        choice1: "Gryffindor",
+        choice2: "Hufflepuff",
+        choice3: "Ravenclaw",
+        choice4: "Slytherin",
+        answer: 4,
+    },
+    {
+        question:
+            "What is Harry Potter's favourite food?",
+        choice1: "Treacle tart",
+        choice2: "Chocolate frogs",
+        choice3: "Pumpkin pasties",
+        choice4: "Rock cakes",
+        answer: 1,
+    },
+    {
+        question:
+            "Who killed Nagini, Voldemort's snake?",
+        choice1: "Luna Lovegood",
+        choice2: "Ginny Weasley",
+        choice3: "Neville Longbottom",
+        choice4: "Dean Thomas",
+        answer: 3,
+    },
+    {
+        question:
+            "What colour fur does Crookshanks have? (Hermiones's cat)",
+        choice1: "Grey",
+        choice2: "Black and white",
+        choice3: "Tabby",
+        choice4: "Ginger",
+        answer: 4,
+    },
 ]
 
 const SCORE_POINTS = 225
