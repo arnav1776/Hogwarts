@@ -4,12 +4,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  background: whitesmoke;
 }
 
 #end-text {
   display: block;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 115px;
   padding: 5px;
   color: white;
   border-radius: 10px;
@@ -26,7 +27,7 @@
   text-shadow: 2px 5px rgb(196 86 196);
 }
 #inputName {
-  margin: 40px auto 40px auto;
+  margin: 50px auto 50px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,4 +71,48 @@
 
 #saveScoreBtn:hover {
   background-image: linear-gradient(to left, rgb(255, 8, 8), rgb(255, 7, 255));
+}
+.playLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.btn1 {
+  margin: 10px;
+  width: 10rem;
+  height: 2.7rem;
+  padding: 4px;
+  font-size: 22px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(255, 8, 8);
+  border: 2px solid rgb(255, 7, 255);
+  font-family: "Baloo 2", cursive;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn1:hover {
+  border: 2px solid rgb(255, 8, 8);
+  color: rgb(255, 7, 255);
+}
+.btn2 {
+  margin: 10px;
+  width: 10rem;
+  height: 2.7rem;
+  padding: 4px;
+  font-size: 22px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid rgb(255, 8, 8);
+  color: rgb(255, 7, 255);
+  font-family: "Baloo 2", cursive;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn2:hover {
+  color: rgb(255, 8, 8);
+  border: 2px solid rgb(255, 7, 255);
 }
