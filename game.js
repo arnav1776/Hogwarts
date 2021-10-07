@@ -107,7 +107,7 @@ let questions = [
     },
     {
         question:
-            "Which of this animals is Harry Potter's patronus?",
+            "Which of these animals is Harry Potter's patronus?",
         choice1: "Cat",
         choice2: "Stag",
         choice3: "Fox",
@@ -152,8 +152,8 @@ let questions = [
     },
 ]
 
-const SCORE_POINTS = 225
-const MAX_QUESTIONS = 9
+const SCORE_POINTS = 350
+const MAX_QUESTIONS = 14
 
 startGame = () => {
     questionCounter = 0
