@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#end-text {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-image: linear-gradient(to right, rgb(255, 8, 8), rgb(255, 7, 255));
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Baloo 2", cursive;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#end-text:hover {
+  text-shadow: 2px 5px rgb(196 86 196);
+}
+#inputName {
+  margin: 40px auto 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+#username {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border: 2px solid rgb(255, 8, 8);
+  border-radius: 10px;
+  width: 29rem;
+  height: 3rem;
+  justify-self: center;
+  font-size: 1.3rem;
+  font-family: "Baloo 2", cursive;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#username:hover {
+  border: 2px solid rgb(255, 7, 255);
+}
+
+#saveScoreBtn {
+  color: white;
+  background-image: linear-gradient(to left, rgb(255, 7, 255), rgb(255, 8, 8));
+  width: 10rem;
+  height: 2.7rem;
+  padding: 4px;
+  font-size: 22px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid white;
+  font-family: "Baloo 2", cursive;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#saveScoreBtn:hover {
+  background-image: linear-gradient(to left, rgb(255, 8, 8), rgb(255, 7, 255));
+}
