@@ -1,3 +1,10 @@
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
+
 ody {
     color: #fff;
 }
@@ -67,8 +74,34 @@ ody {
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
+
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
     }
+      .choice-container {
+        min-width: 40rem;
+    }  
+}
+@media (max-width:768px){
+
+    html{
+        font-size: 50%;
+    }
+     .choice-container {
+        min-width: 35rem;
+    } 
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 45%;
+    }
+      .choice-container {
+        min-width: 30rem;
+    }  
 }
