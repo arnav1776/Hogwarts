@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
+
 body {
   width: 100%;
   margin: 0;
@@ -39,6 +41,7 @@ header {
 #dr {
   font-style: italic;
   font-family: sans-serif;
+  margin-top: 0px;
 }
 main {
   display: flex;
@@ -83,7 +86,7 @@ main {
   color: white;
 }
 
-.sec2{
+.sec2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,11 +126,11 @@ main {
   box-shadow: 0 20px 20px 20px silver;
 }
 
-.ig{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 1rem solid;
+.ig {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 1rem solid;
 }
 
 h1 {
@@ -238,7 +241,7 @@ h2 {
   margin-left: 1rem;
 }
 
-footer{
+footer {
   background-color: #0c1445;
   margin: -21px 0px;
   padding: 50px 10px 20px;
@@ -250,10 +253,27 @@ footer p {
   font-size: 25px;
 }
 
-footer p a{
+footer p a {
   color: #fff;
 }
 
-footer p a:hover{
-  color: #1E7352;
+footer p a:hover {
+  color: #1e7352;
+}
+
+.fact {
+  font-family: "Baloo 2", cursive;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  width: fit-content;
+  cursor: pointer;
+}
+
+.fact:hover {
+  color: rgba(255, 255, 255 , 0.9);
 }
