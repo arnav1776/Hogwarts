@@ -1,5 +1,7 @@
 # Hogwarts 
 
+> Play the Quiz here: [Hogwarts](https://hogwarts-web-app.herokuapp.com/)
+
 ![Hogwarts](https://i.ibb.co/hs7hYCj/Screenshot-2021-10-06-124630.png)
 
 ## What is Hogwarts About?
