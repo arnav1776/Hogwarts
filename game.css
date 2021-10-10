@@ -4,6 +4,7 @@ ody {
 body{
     background: linear-gradient(rgb(130, 220, 226),rgb(7, 54, 109));
     height: 590px;
+    overflow-x: hidden;
 }
 /* .choice-container {
     display: flex;
