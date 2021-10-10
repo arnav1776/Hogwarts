@@ -152,8 +152,8 @@ let questions = [
     },
 ]
 
-const SCORE_POINTS = 350
-const MAX_QUESTIONS = 14
+const SCORE_POINTS = 5
+const MAX_QUESTIONS = 15
 
 startGame = () => {
     questionCounter = 0
@@ -163,13 +163,13 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
+    questionCounter++
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-
         return window.location.assign('/end.html')
     }
 
-    questionCounter++
+    
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
     
