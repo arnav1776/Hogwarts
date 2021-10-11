@@ -20,7 +20,8 @@
 }
 
 html {
-  background: var(--blue);
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJsW42swVFiJWhsxuG-HQzt3mDP0W8KONww&usqp=CAU")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
