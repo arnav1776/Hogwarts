@@ -151,7 +151,7 @@ header {
 }
 
 .sec2 article ul li p {
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     color: var(--color3);
     font-family: sans-serif;
 }
@@ -195,5 +195,5 @@ header {
     text-align: justify;
     color: var(--color4);
     font-family: sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
