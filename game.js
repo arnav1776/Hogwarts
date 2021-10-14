@@ -3,6 +3,7 @@ const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
+const time=document.querySelector('#time-left');
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -168,8 +169,18 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score)
         return window.location.assign('/end.html')
     }
-
-    
+    count=15
+    function timer(){
+        count=((count<10)?('0'+count):(count))
+        time.innerHTML=`${count}`
+        if(count<1){
+            window.clearInterval(update)
+            getNewQuestion()
+            alert("You're out of time!");
+        }
+        count--
+    }
+    update=setInterval(timer, 1000)
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
     
@@ -185,12 +196,14 @@ getNewQuestion = () => {
     availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
+    
 }
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
         if(!acceptingAnswers) return
 
+        
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
@@ -200,7 +213,7 @@ choices.forEach(choice => {
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
         }
-
+        window.clearInterval(update)
         selectedChoice.classList.add(classToApply)
 
         setTimeout(() => {
