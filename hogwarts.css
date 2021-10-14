@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -33,6 +33,7 @@ header {
 }
 
 #hog {
+  font-family: 'Crimson Text', serif;
   font-weight: bold;
   font-size: 4vw;
 }
