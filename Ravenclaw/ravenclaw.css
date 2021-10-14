@@ -10,6 +10,8 @@
   --black: #000000;
   --white: #e6e6e6;
   --red: #8d261f;
+  --blue: #000a90;
+  --bronze: #946b2d;
 }
 
 * {
@@ -18,7 +20,8 @@
 }
 
 html {
-  background: url(../images/Gryffindor.png) no-repeat center center fixed;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJsW42swVFiJWhsxuG-HQzt3mDP0W8KONww&usqp=CAU")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,7 +37,7 @@ body {
 header {
   width: 100vw;
   height: 20vh;
-  background-color: var(--red);
+  background-color: var(--blue);
   box-shadow: inset 0 0 100px black;
 }
 

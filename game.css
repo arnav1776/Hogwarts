@@ -24,6 +24,13 @@ body{
     transform: transform 100ms; */
     /* height: 60px; */
 /* }  */
+
+#game {
+    width: 100%;
+    max-width: 80vw;
+    margin: 2vw auto;
+}
+
 .choice-container{
     padding: 0;
     display: flex;
@@ -100,11 +107,6 @@ body{
     width: 0%;
 }
 
-@media screen and (max-width: 768px) {
-    .choice-container {
-        min-width: 40rem;
-    }
-}
 #progressTxt{
     margin: 0;
 }
@@ -132,4 +134,10 @@ body{
     margin-top: 10px;
     height: 350px;
     justify-content: flex-start;
+}
+
+@media screen and (min-width: 2400px) {
+    #game {
+        max-width: 2000px;
+    }
 }
