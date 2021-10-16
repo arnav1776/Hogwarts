@@ -29,7 +29,7 @@ Can you get the maximum score?
 
 ---
 
-## See your score & To play a new quiz click on "Play Again Button" & To retrun to Hogwarts Page click "Go Home Button" :
+## See your score & To play a new quiz click on "Play Again Button" & To return to Hogwarts Page click "Go Home Button" :
 
 ![Result](./ReadmeImages/end.png?raw=true "Result")
 
