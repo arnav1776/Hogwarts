@@ -139,9 +139,6 @@ main {
   margin: 0 5%;
 }
 
-#gr {
-  font-size: 32px;
-}
 #ig1 {
   border-color: red;
   box-shadow: 0 20px 20px 20px gold;
@@ -164,6 +161,7 @@ main {
   height: 20vw;
   border-radius: 50%;
   border: 1vw solid;
+  margin: 2.5rem;
 }
 
 h1 {
@@ -178,10 +176,6 @@ h1 {
   opacity:1;
 }
 
-h2 {
-  font-size: 4.2rem;
-  margin-bottom: 4rem;
-}
 .container {
   width: 100vw;
   height: 100vh;
@@ -234,32 +228,6 @@ h2 {
   font-size: 2vw;
 }
 
-.botn {
-  
-  padding: 5% 0;
-  width: 20vw;
-  text-align: center;
-  margin: 40% 2% 5% 2%;
-  text-decoration: none;
-  background: linear-gradient(
-    90deg,
-    rgb(87, 58, 250) 0%,
-    rgb(255, 255, 255) 100%
-  );
-  border-radius: 10px;
-  color: rgb(28, 26, 26);
-}
-.botn a {
-  color: rgb(28, 26, 26);
-  font-size: 2.5vw;
-  text-decoration: none;
-}
-.botn:hover {
-  cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
-  transition: transform 150ms;
-  transform: scale(1.03);
-}
 .btn:hover {
   cursor: pointer;
   box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
