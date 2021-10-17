@@ -115,18 +115,20 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./images/home.jpg");
+  background-image: url("./images/home2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  opacity: 0.95;
-  color: white;
+  outline: none;
 }
 .sec h3 {
+  color: black;
   text-align: center;
   letter-spacing: 1px;
   margin-top: 50px;
-  text-shadow: 0px 10px 10px black;
+  text-shadow: 0px 5px 5px rgb(230 241 235);
+  background: rgb(185 193 186 / 30%);
+  font-weight: bold;
 }
 
 .sec2 {
