@@ -29,18 +29,50 @@ Can you get the maximum score?
 
 ---
 
-### See your score:
-![Result](https://i.ibb.co/SnDjyw5/Screenshot-2021-10-06-123618.png )
+### See your score & To play a new quiz click on "Play Again Button" & To retrun to Hogwarts Page click "Go Home Button" :
+![Result](./ReadmeImages/endImage.png?raw=true "Result" )
 
 
 ---
 
+### To explore more about Gryffindor , Hufflepuff , Ravenclaw & Slytherin click button above your house's crest
+
+![Gryffindor & Hufflepuff House's Button](./ReadmeImages/Btn1.png?raw=true "Gryffindor & Hufflepuff House's Button")
+![Ravenclaw & Slytherin House's Button](./ReadmeImages/Btn2.png?raw=true "Ravenclaw & Slytherin House's Button")
+
+---
+
+### Gryffindor :
+![Gryffindor Page](./ReadmeImages/GryffindorImg.png?raw=true "Gryffindor Page")
+
+
+---
+
+### Hufflepuff :
+![Hufflepuff Page](./ReadmeImages/HufflepuffImg.png?raw=true "Hufflepuff Page")
+
+---
+
+### Ravenclaw :
+![Ravenclaw Page](./ReadmeImages/RavenclawImg.png?raw=true "Ravenclaw Page")
+
+---
+
+### Slytherin :
+![Slytherin Page](./ReadmeImages/SlytherinImg.png?raw=true "Slytherin Page")
+
+---
+### To deep dive into histroy of any house click on "Read More link" on it's page:
+![Read More](./ReadmeImages/Readmore.png?raw=true "Read More Page")
 
 ## Want to be a wizard and contribute to Hogwarts?
 
-- Fork the repo
+- Fork the repo 
+- Clone the repo in your local system (git clone {repo link})
 - Create a new branch (git checkout -b new-feature)
 - Make your changes in the file
-- Commit your changes (git commit -m 'I changed a, b and c')
+- Commit your changes (git commit -m 'changed a, b and c')
+- Make commit message exact and precise 
 - Push to the branch (git push origin new-feature)
+- If there a merge commit resolve it 
 - Create a Pull Request
