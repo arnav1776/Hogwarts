@@ -147,19 +147,43 @@ main {
 
 #ig1 {
 	border-color: #d72515;
-	box-shadow: 0 0 20px 20px #d72515;
+	box-shadow: 0 0 20px 5px #d72515;
+}
+#ig1:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 30px 20px #ff6842ea;
+	border-color: #ff6842ea;
+	transition:all 400ms ease-out;
 }
 #ig2 {
 	border-color: #3e85ff;
-	box-shadow: 0 0 20px 20px #3e85ff;
+	box-shadow: 0 0 20px 5px #3e85ff;
+}
+#ig2:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 30px 20px #72a6ff;
+	border-color: #72a6ff;
+	transition:all 400ms ease-out;
 }
 #ig3 {
 	border-color: #f5f523;
-	box-shadow: 0 0 20px 20px #f5f523;
+	box-shadow: 0 0 20px 5px #f5f523;
+}
+#ig3:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 30px 20px #f8f863;
+	border-color: #f8f863;
+	transition:all 400ms ease-out;
 }
 #ig4 {
 	border-color: #2e7151;
-	box-shadow: 0 0 20px 20px #2e7151;
+	box-shadow: 0 0 20px 5px #2e7151;
+}
+#ig4:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 30px 20px #3ab378;
+	border-color: #3ab378;
+	transition:all 400ms ease-out;
 }
 
 .ig {
