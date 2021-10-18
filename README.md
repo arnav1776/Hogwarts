@@ -1,6 +1,6 @@
 # Hogwarts
 
-> ## Play the Quiz here: [Hogwarts](https://hogwarts-web-app.herokuapp.com/)
+> ## Play the Quiz here: [Hogwarts](https://hogwarts-quiz-app.herokuapp.com/)
 
 ![Hogwarts](./ReadmeImages/Hogwarts.png "Image Of Homepage of Hogwarts")
 
