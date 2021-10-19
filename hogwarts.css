@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
 @import url("http://fonts.cdnfonts.com/css/harry-potter");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @font-face {
 	font-family: "AuldMagick Bold";
@@ -21,6 +22,17 @@
 	font-family: "Magic School One";
 	src: url(/house_page_template/magic-school.one.ttf);
 }
+
+@font-face {
+	font-family: 'Lumos';
+	src: url('fonts/Lumos.woff2')
+			format('woff2'),
+		url('fonts/Lumos.woff')
+			format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -254,18 +266,16 @@ h1 {
 }
 
 .btn {
-	font-size: 2vw;
+	font-size: 2.5vw;
 	padding: 5% 0;
 	width: 30vw;
 	text-align: center;
 	margin-bottom: 1rem;
 	text-decoration: none;
-	color: rgb(28, 26, 26);
-	background: linear-gradient(
-		90deg,
-		rgb(18, 92, 255) 0%,
-		rgb(0, 102, 255) 100%
-	);
+	color: rgb(196, 185, 43);
+	background-image: url("images/play-background.png");
+	background-size: contain;
+	font-family: 'Lumos' !important;
 	border-radius: 4px;
 }
 .fas {
@@ -274,7 +284,7 @@ h1 {
 
 .btn:hover {
 	cursor: pointer;
-	box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(233, 233, 0, 0.5);
 	transition: transform 150ms;
 	transform: scale(1.03);
 }
@@ -283,18 +293,6 @@ h1 {
 	cursor: not-allowed;
 	box-shadow: none;
 	transform: none;
-}
-
-#highscore-btn {
-	background: linear-gradient(
-		90deg,
-		rgb(255, 247, 9) 0%,
-		rgb(240, 221, 6) 100%
-	);
-}
-
-#highscore-btn:hover {
-	box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
 }
 
 .fa-crown {
