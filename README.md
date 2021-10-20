@@ -45,11 +45,12 @@ Can you get the maximum score?
 
 - [Read Contribution Guidline for this Repo](https://github.com/arnav1776/Hogwarts/blob/master/CONTRIBUTING.md)
 - Fork the repo
-- Clone the repo in your local system (git clone {repo link})
-- Create a new branch (git checkout -b new-feature)
-- Make your changes in the file
-- Commit your changes (git commit -m 'changed a, b and c')
+- Clone the repo in your local system (git clone https://github.com/<your_name>/Hogwarts.git)
+- Navigate to the project directory (cd Hogwarts/)
+- Create a new branch (git checkout -b <your_branch_name>)
+- Make your desired changes
+- Track your changes (git add .)
+- Commit your changes (git commit -m "relevant message")
 - Make commit message exact and precise
-- Push to the branch (git push origin new-feature)
-- If there a merge commit resolve it
+- Push to the branch (git push -u origin <your_branch_name>)
 - Create a Pull Request
