@@ -381,3 +381,27 @@ footer p a:hover {
 #myBtn:hover {
 	background-color: rgb(61, 2, 2);
 }
+
+.menu{
+	font-family: "Harry Potter", sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 3vw;
+	letter-spacing: 0.3rem;
+	top: 1rem;
+	left: 1rem;
+}
+
+.menu:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu{
+	display: none;
+	list-style-type: none;
+}
+
+.sub-menu__links{
+	font-size: 2vw;
+	color: white;
+}
